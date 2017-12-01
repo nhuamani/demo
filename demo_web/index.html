@@ -13,19 +13,7 @@
     </div>
 
     <script src="node_modules/angular/angular.min.js"></script>
-
-    <script type="text/javascript">
-        var app = angular.module("myApp", [
-
-            ]);
-
-        app
-        .controller("nomCtrl", function ($scope) {
-            $scope.nombre="Lucas Chavez";
-            $scope.save = function (){
-                console.log("Hola "+$scope.nombre);
-            }
-        });
-    </script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/nomCtrl.js"></script>
 </body>
 </html>
