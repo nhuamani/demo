@@ -16,12 +16,9 @@
     "url": "git+https://github.com/nhuamani/demo.git"
   },
   "keywords": [
+    "gulp",
     "runserver"
   ],
   "author": "nhuamani",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nhuamani/demo/issues"
-  },
-  "homepage": "https://github.com/nhuamani/demo#readme"
+  "license": "ISC"
 }
