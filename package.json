@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Dependencias para levantar un pequeño servidor web",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp runserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhuamani/demo.git"
+  },
+  "keywords": [
+    "runserver"
+  ],
+  "author": "nhuamani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhuamani/demo/issues"
+  },
+  "homepage": "https://github.com/nhuamani/demo#readme"
+}
