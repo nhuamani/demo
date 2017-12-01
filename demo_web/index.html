@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
     <title>App Angular</title>
 </head>
 <body>
-    <h1>El servidor esta levantado</h1>
-    
+    <h1>App Angular en una sola pagina</h1>
+
+    <div ng-controller="nomCtrl">
+        <input type="text" ng-model="nombre"> {{ nombre }}
+        <a href="" ng-click="save()">Save</a>
+    </div>
+
+    <script src="node_modules/angular/angular.min.js"></script>
+
+    <script type="text/javascript">
+        var app = angular.module("myApp", [
+
+            ]);
+
+        app
+        .controller("nomCtrl", function ($scope) {
+            $scope.nombre="Lucas Chavez";
+            $scope.save = function (){
+                console.log("Hola "+$scope.nombre);
+            }
+        });
+    </script>
 </body>
 </html>
