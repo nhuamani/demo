@@ -8,7 +8,7 @@ class CategoriaSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Categoria
-        fields = ('url', 'nombre', 'codigo', 'estado')
+        fields = ('nombre', 'codigo', 'estado')  # 'url',
 
 
 class CategoriaViewSet(viewsets.ModelViewSet):
