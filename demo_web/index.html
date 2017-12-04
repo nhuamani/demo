@@ -6,13 +6,14 @@
 </head>
 <body>
     <h1>App Angular en una sola pagina</h1>
+    
+    <a ui-sref="pag1">Pagina 1</a>
 
-    <div ng-controller="nomCtrl">
-        <input type="text" ng-model="nombre"> {{ nombre }}
-        <a href="" ng-click="save()">Save</a>
-    </div>
+    <div ui-view></div>
 
     <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
     <script src="app/app.js"></script>
     <script src="app/controllers/nomCtrl.js"></script>
 </body>
